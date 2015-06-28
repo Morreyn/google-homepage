@@ -1,0 +1,146 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0px;
+	padding: 0px;	
+}
+
+body {
+	
+	font-family: arial, sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	top: auto;
+	bottom: auto;	
+}
+
+a:link{
+	text-decoration: none;
+	color: #535353;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #535353;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #535353;
+}
+
+nav {
+	background-color: #F9F5F6;
+	font-size: 1.2em;
+	width: 100%;
+	height: 40px;
+	position: fixed;
+	padding-bottom: 10px;
+	
+}
+
+nav ul {
+	position:relative;
+	display: block;
+	float: right;
+	margin-right: 20px;
+
+	
+}
+
+nav ul li {
+	display: inline;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	position: relative;
+	
+}
+
+
+#logo {
+	width: auto;
+	height: 300px;
+
+}
+
+#logo img {
+	display:block;
+	padding-top: 150px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#searchbar {
+	width: auto;
+	text-align: center;
+}
+
+#searchbar form input{
+	border: solid #000000 1px;
+	width: 560px;
+	height: 25px;
+	margin: 0px;
+		
+}
+
+#buttons ul{
+	margin-bottom: 20px;
+	text-align: center;
+	display: block;
+}
+
+#buttons ul li {
+	display: inline;
+	margin-left: 10px;
+}
+
+#Yosemite {
+	text-align: center;
+}
+
+#Yosemite a:link {
+	text-decoration: underline;
+	color: blue;
+}
+
+#Yosemite a:hover{
+	text-decoration: underline;
+	color: blue;
+}
+
+#Yosemite a:visited {
+	text-decoration: underline;
+	color: blue;
+}
+
+#footer {
+	background-color: #F9F5F6;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	height: 40px;
+}
+#footernav ul li {
+	display: inline;
+	float: left;
+	margin-right: 10px;
+	margin-left: 20px;
+	padding-top: 15px;
+	color: #535353;
+	font-size: 1.2em;
+	
+}
+
+
+#footernav2 ul li {
+	display: inline;
+	float: right;
+	margin-left: 10px;
+	margin-right: 20px;
+	padding-top: 15px;
+	color: #535353;
+	font-size:  1.2em;
+}
+
